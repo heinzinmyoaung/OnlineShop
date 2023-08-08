@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useCallback, useEffect, useState } from "react";
 import UseHttp from "../Hook/UseHttp";
 import Navbar from "../components/Navbar";

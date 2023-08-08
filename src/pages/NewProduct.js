@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { json, redirect } from "react-router-dom";
 import ProductForm from "../components/ProductForm";
 import UseHttp from "../Hook/UseHttp";
