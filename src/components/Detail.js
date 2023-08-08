@@ -12,17 +12,17 @@ const Detail = (props) => {
 
   const stars = CreateStars(productDetail);
 
-  const submit = useSubmit();
+  // const submit = useSubmit();
 
-  const startDeleteHandler = (event) => {
-    event.preventDefault();
-    const proceed = window.confirm("Are you sure?");
+  // const startDeleteHandler = (event) => {
+  //   event.preventDefault();
+  //   const proceed = window.confirm("Are you sure?");
 
-    if (proceed) {
-      submit(null, { method: "DELETE" });
-      // submit({title: 'hello',}, {method: 'DELETE', action: '/a-different-path'})
-    }
-  };
+  //   if (proceed) {
+  //     submit(null, { method: "DELETE" });
+  //     // submit({title: 'hello',}, {method: 'DELETE', action: '/a-different-path'})
+  //   }
+  // };
 
   return (
     <section>
@@ -101,7 +101,7 @@ const Detail = (props) => {
                   </p>
                 </div>
               </div>
-              <button className="w-full h-11 bg-black mt-2 text-white">
+              {/* <button className="w-full h-11 bg-black mt-2 text-white">
                 Add To Card
               </button>
               <button
@@ -109,7 +109,7 @@ const Detail = (props) => {
                 className="w-full h-11 bg-red-500 mt-2 text-white"
               >
                 Delete
-              </button>
+              </button> */}
             </form>
           </div>
         </div>

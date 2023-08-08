@@ -5,7 +5,7 @@ const ProductForm = ({ categories }) => {
 
   const isSubmitting = navigation.state === "submitting";
   return (
-    <Form method="post" className="max-w-md mx-auto">
+    <Form method="post" className="max-w-md mx-auto mt-10">
       <div className="mb-4">
         <label className="block mb-2 font-bold" htmlFor="text-input">
           Title
